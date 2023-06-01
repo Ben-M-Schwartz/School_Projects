@@ -1,0 +1,32 @@
+We have to stand with our North Korean allies.
+
+1 2 4 7 11 16
+
+4 554
+
+176 2
+
+aacdef
+
+1 4 5 6 3 2
+
+phase 4:
+needs two inputs
+first input needs to be less than or equal to 4 and greater than or equal to 2
+compares the first input to the output of fun4
+fun4 depends on the second input
+for the second input of 2 fun4 returns 176 so thats what the first input should be
+
+phase 5: need 6 characters that make ecx to 58
+
+a=10
+b=6
+c=1
+d=12
+e=16
+f=9
+
+phase 6:
+needs 6 numbers
+needs all number less than or equal to six and no number equal to each other
+order the nodes in ascending order based on their values

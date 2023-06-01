@@ -1,0 +1,21 @@
+#include <stdio.h>
+/* 
+*  allEvenBits - return 1 if all even-numbered bits in word set to 1
+*  Examples allEvenBits(0xFFFFFFFE) = 0, allEvenBits(0x55555555) = 1
+*  Legal ops: ! ~ & ^ | + << >> 
+*  Max ops: 12  
+*/
+
+int allEvenBits(int x){
+	int mask = 0x55555555;
+	int andx = mask & x;
+	int xor = andx ^ mask;
+	return !xor;
+}
+
+main() {
+	int x = allEvenBits(0xFFFFFFFE);
+	int y = allEvenBits(0x55555555);
+	printf("%d, %d \n", x, y);
+return 0;
+}
