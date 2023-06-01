@@ -1,1 +1,1 @@
-We did a few java projects in my principles of programming languages class
+We did one java project in my principles of programming languages class. In my freshman year the first CS class that I took used Java and Kotlin for the 7 labs but unfortunately I no longer have the code for those projects. 
