@@ -1,0 +1,9 @@
+<!DOCTYPE catalog
+[
+<!ELEMENT catalog (cars)>
+<!ELEMENT cars(Id, car, year, cost)>
+<!ELEMENT Id (#PCDATA)>
+<!ELEMENT car (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+]>

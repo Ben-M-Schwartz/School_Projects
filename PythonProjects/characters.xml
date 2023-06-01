@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE characters SYSTEM 'characters.dtd'>
+<Characters>
+	<Superheroes>
+	<Superhero>
+		<id>1 </id>
+		<SuperheroName>Batman  </SuperheroName>
+		<RealName>Bruce Wayne </RealName>
+		<City>Gotham </City>
+		<created>1939 </created>
+	</Superhero>
+
+	<Superhero>
+		<id>2 </id>
+		<SuperheroName>Superman</SuperheroName>
+		<RealName>Clark Kent </RealName>
+		<City>Metropolis</City>
+		<created>1938 </created>
+	</Superhero>
+
+	<Superhero>
+		<id>3 </id>
+		<SuperheroName>Spiderman </SuperheroName>
+		<RealName>Peter Parker </RealName>
+		<City>New York </City>
+		<created>1962 </created>
+	</Superhero>
+
+	<Superhero>
+		<id>4 </id>
+		<SuperheroName>Wonder Woman </SuperheroName>
+		<RealName>Diana Prince </RealName>
+		<City>Themyscira </City>
+		<created>1941 </created>
+	</Superhero>
+
+	<Superhero>
+		<id>5</id>
+		<SuperheroName>Spiderman </SuperheroName>
+		<RealName>Miles Morales </RealName>
+		<City>New York </City>
+		<created>2011 </created>
+	</Superhero>
+
+	<Superhero>
+		<id>6 </id>
+		<SuperheroName>Catwoman </SuperheroName>
+		<RealName>Selena Kyle </RealName>
+		<City>Gotham  </City>
+		<created>1940 </created>
+	</Superhero>
+</Superheroes>
+
+	<Villains>
+<Villain>
+		<id>1 </id>
+		<VillainName>Joker  </VillainName>
+		<RealName>Jack Napier </RealName>
+		<City>Gotham </City>
+		<created>1940</created>
+	</Villain>
+
+	<Villain>
+		<id>2 </id>
+		<VillainName>Venom </VillainName>
+		<RealName>Eddie Brock </RealName>
+		<City>New York</City>
+		<created>1984 </created>
+	</Villain>
+
+	<Villain>
+		<id>3 </id>
+		<VillainName>Lex Luthor </VillainName>
+		<RealName>Lex Luthor</RealName>
+		<City>Metropolis </City>
+		<created>1940 </created>
+	</Villain>
+
+	<Villain>
+		<id>4 </id>
+		<VillainName>Mantego </VillainName>
+		<RealName>Max Eisenhardt </RealName>
+		<City>Metropolis </City>
+		<created>1963</created>
+	</Villain>
+</Villains>
+
+</Characters>

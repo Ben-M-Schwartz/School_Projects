@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM 'cars.dtd'>
+<catalog>
+
+	<Cars>
+		<id>1</id>
+		<car>Mercedes-Benz G-400</car>
+		<year>2002</year>
+		<cost>28000</cost>
+	</Cars>
+
+
+	<Cars>
+		<id>2</id>
+		<car>Mercedes-Benz G-400 AMG </car>
+		<year>2002</year>
+		<cost>38500</cost>
+	</Cars>
+
+
+	<Cars>
+		<id>3</id>
+		<car>Toyota Sequoia</car>
+		<year>2012</year>
+		<cost>32500</cost>
+	</Cars>
+
+
+	<Cars>
+		<id>4</id>
+		<car>Toyota Avalon</car>
+		<year>2015</year>
+		<cost>21000</cost>
+	</Cars>
+
+
+	<Cars>
+		<id>5</id>
+		<car>Subaru Forester</car>
+		<year>2016</year>
+		<cost>18800</cost>
+	</Cars>
+
+
+	<Cars>
+		<id>6</id>
+		<car>Suzuki SX4</car>
+		<year>2020</year>
+		<cost>19000 </cost>
+	</Cars>
+
+</catalog>

@@ -1,0 +1,16 @@
+<!DOCTYPE Characters
+[
+<!ELEMENT Characters (Superheroes, Villains)>
+<!ELEMENT Superheroes (Id, SuperheroName, RealName, City, Created)>
+<!ELEMENT Id (#PCDATA)>
+<!ELEMENT SuperheroName (#PCDATA)>
+<!ELEMENT RealName (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Created (#PCDATA)>
+<!ELEMENT Villains (id, VillainName, RealName, City, created)>
+<!ELEMENT Id (#PCDATA)>
+<!ELEMENT VillainName (#PCDATA)>
+<!ELEMENT RealName (#PCDATA)>
+<!ELEMENT City (#PCDATA)>
+<!ELEMENT Created (#PCDATA)>
+]>

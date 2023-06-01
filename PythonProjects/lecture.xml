@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+<Superheroes>
+    <Id> 1</Id>
+    <SuperheroName>Batman</SuperheroName>
+    <RealName>Bruce Wayne</RealName>
+    <City>Gotham</City>
+    <Created>1939</Created>
+</Superheroes>
+<Superheroes>
+    <Id> 4</Id>
+    <SuperheroName>Wonder Woman</SuperheroName>
+    <RealName>Diana Prince</RealName>
+    <City>Themyscira</City>
+    <Created>1941</Created>
+</Superheroes>
+<Superheroes>
+    <Id> 5</Id>
+    <SuperheroName>Spiderman</SuperheroName>
+    <RealName>Miles Morales</RealName>
+    <City>New York</City>
+    <Created>2011</Created>
+</Superheroes>
+</root>
