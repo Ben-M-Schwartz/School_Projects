@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FactorialTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-04-30T03:30:40" hostname="DESKTOP-AJFCNCR" time="0.054">
+  <properties/>
+  <testcase name="nestedLetsToString" classname="FactorialTest" time="0.047"/>
+  <testcase name="letFunToString" classname="FactorialTest" time="0.0"/>
+  <testcase name="letValToString" classname="FactorialTest" time="0.0"/>
+  <testcase name="letValInEnv1" classname="FactorialTest" time="0.003"/>
+  <testcase name="fBodyToString" classname="FactorialTest" time="0.0"/>
+  <testcase name="fFiveToString" classname="FactorialTest" time="0.0"/>
+  <testcase name="letFunInEnv3" classname="FactorialTest" time="0.0"/>
+  <testcase name="sixMinusOneToString" classname="FactorialTest" time="0.0"/>
+  <testcase name="fFiveInEnv2" classname="FactorialTest" time="0.001"/>
+  <testcase name="nestedLetsInEnv0" classname="FactorialTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

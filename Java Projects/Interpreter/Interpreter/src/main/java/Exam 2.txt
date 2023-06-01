@@ -1,0 +1,127 @@
+Exam 2
+On my honor, I pledge that I have not given, recieved, or tolerated others' use of unauthorized aid in completing this work. Ben Schwartz
+
+1.
+a T
+b F
+c T
+d F
+e T
+f T
+g F
+h T
+i F
+j T
+k T
+l F
+m F
+n T
+o T
+p F
+q T
+r T
+s T
+t T
+
+2. 
+a A type which a language can use but can not implement itself. 
+
+b. int, real, char
+
+c. A type the a language can define for itself
+
+d. datatype friends = John | Marry | Calvin | Joe;
+
+
+3. 
+a. Polymorphism is when a language permits a call of methods in different classes that have the same name and type. 
+
+b. int add (int x) {
+	return x + x;
+	}
+	doulbe add(double x) {
+	return x + x;
+	}
+
+c. val x = [[1],[2],[3],[4],[5]]: int list list
+
+d. 
+public interface Vehicle {//example code}
+public class Car implements Vehicle {//example code}
+
+Car corolla = new Vehicle();
+
+4. 
+a. 
+different(red, yellow).
+different(red, blue).
+different(yellow, red).
+different(yellow, blue).
+different(blue, red).
+different(blue, yellow).
+
+b.
+coloring(A, B, C, D, E, F, G) :-
+	different(A, B),
+	different(B, C),
+	different(C, D),
+	different(A, E),
+	different(B, E),
+	different(B, F),
+	different(C, F),
+	different(E, F),
+	different(F, G),
+	different(D, G),
+	different(C, G).
+
+c. ?- coloring(ND, SD, NE, KS, MN, IA, MO).
+
+
+5.
+a. ML uses lexical scoping
+
+b. Lisp uses dynamic scoping
+
+c. 10
+
+d. 20
+
+
+6. 
+a. 
+fun sum1([], acc) = acc
+|	sum1(x::xs, acc) = sum(xs, acc+x);
+
+fun sum(x) = sum1(x, 0);
+
+b. 
+fun reverse1([], acc) = acc
+|	reverse1(x:xs, acc) = reverse1(xs, x::acc)
+
+fun reverse(x) = reverse1(x, []);
+
+c. Java
+
+d. Fortran
+
+7. 
+a.
+public class Test {
+	int x=0;
+	int y=0;
+	int z=0;
+}
+
+public void method() {
+	Test t = new Test();
+}
+
+b. Java has automatic garbage collection.
+
+c. When the free blocks on the heap are separated by allocated blocks so an allocation fails even though there is enough free space because it is unable to allocate to two separated free blocks.
+
+d. The heap manager can move blocks. Moving all allocated blocks together will combine all the free blocks which gets rid of fragmentation.
+
+
+
+

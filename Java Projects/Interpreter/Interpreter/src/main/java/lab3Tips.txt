@@ -1,0 +1,91 @@
+first write ScopedMap.java then the program will pass the ScopedMapTest.java test files with gradle test
+
+
+then write Analyzer.java then you can do gradle run, make a bunch of input files that should test each aspect of the requirements: gradle run --args=input/input0. Input files are just text files, dont have to put .txt in unix
+
+if you run it on a bad file it should throw an exception (illegal argument exception in Sans example)
+
+the main has to be in a class in Analyzer.java
+
+import scanner
+
+take the main, stick it in at the bottom of the given Analyzer.java file
+
+then gradle compileJava
+
+import java.util.Scanner;
+immprot java.io*;
+need these two at the top of the Analyzer file to fix the error messages
+
+Secret to solve the lab: You have to do the formatting correctly
+						Know which variable is used where
+						Written as a big loop: trying to do the scanning, parsing, interpreting | nested loops will be too difficult
+
+						use compiler technology
+						-lexical analyzer(scanner)
+						takes a stream of char's -> stream of tokens
+						-parser
+						takes a stream of tokens -> parse tree
+						-action
+
+						think in phases
+						0. trivial (the scanner does the lexical analyzer for you)
+						1. focus on doing the parsing
+						take a string of inputs and then do the formatting correctly (ignore the annotation) 
+							-cant do much just check whether it is right or wrong
+							-output the exception if it is wrong
+						2. augment it to do the action(outputting the annotation like refferences, declaration, etc.)
+
+
+						-top-down parser (solves step 1)
+						Predictive parser:
+						(recursive descent parser)
+							-uses 1 lookahead symbol
+							At any point in time it will ask the scanner what token is lying ahead, (eof is a special token that tells you that you are at the end of the file)
+							-purely driven by BNF rules
+							in order to design the parser you need to use the BNF given on the project page
+								rule: Just by peeking ahead 1 symbol, you can decide what action to do.
+							-recursive functions
+								rule: for each non-terinal, you write one function.
+									The purpose for that function is to parse enough to pass the rules (<blck> has one rule, <stmts> has two rules etc.)
+
+									blck(){
+										//declare data sttructure (step 2)
+										match("begin")
+										//perform action (like updating data structure, step 2)
+										stmts()
+										//perform action(2)
+										match("end")
+										//perform action(2)
+									}
+									stmts(){
+										//using the grammar figure out when to use each rule
+
+										if(lookahead == ?)
+											//use rule 1 (nothing so just put ;)
+										else if (lookahead == ?) {
+											//use rule 2
+											stmt()
+											stmts()
+											}
+									}
+									stmt(){
+										...
+									}
+									
+
+									advance function reads in the next token
+
+									for step two you add to the parser
+
+
+
+									//get "Drogon Book" and read the predictive parsing section//
+
+									//go to java tutorial and read the trial on generics//(for the ScopedMap)
+
+
+
+
+
+
